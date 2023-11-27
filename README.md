@@ -3,9 +3,7 @@
 ## Setup
 - `git clone https://github.com/arvydux/lumen-api-products`
 - `cp .env.example .env`
-- `composer install`
-- `docker-compose --env-file .env up`
-- `php artisan migrate`
+- `docker-compose up`
 
 Now that all containers are up, access `http://localhost:8000` on your favorite browser
 
